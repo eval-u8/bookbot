@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#ignore the weird file from macos
+.DS_Store
+
+#ignore the books folder
+books/
+
 # C extensions
 *.so
 
