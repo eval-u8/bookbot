@@ -26,6 +26,7 @@ def get_repeat_chars(book_text):
     char_dict = {}
     for char in book_text:
         lowered = char.lower()
+# isalpha() method checks if characters are alphanumeric or not. returns True or False
         if not lowered.isalpha():
             pass
         elif lowered in char_dict:
